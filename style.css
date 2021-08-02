@@ -1,7 +1,7 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 img{
@@ -10,30 +10,20 @@ img{
 }
 h1{
     font-size: 50px;
-    color: #575757;
+    color: #9c9c9c;
 }
 h2{
     font-size: 40px;
 }
-.title{
-    color: #ff0000;
-}
-.ph{
-    color: #dddddd;
-}
-.last{
-    width: 300px;
-    margin: 0 40px;
-    box-shadow: 5px 5px 20px #808080;
-    padding: 30px;
-    margin-bottom: 50px;
-    border-radius: 35px;
-}
 img{
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .last:hover{
     box-shadow:10px 10px 50px grey;
+}
+.containt{
+    width: 500px;
+    margin: 0 auto;
 }
 .last p{ 
     width: 300px;
@@ -44,9 +34,6 @@ img{
 .Footer p{
     text-align: center;
 }
-.fffoootttr p{
-    margin: 60px auto;
-}
 .half{
     width: 50%;
     padding: 5%;
@@ -54,12 +41,6 @@ img{
 .half img{
     width: 80%;
     height: 85%;
-}
-.banner{
-   display: flex;
-}
-.top{
-    display: block;
 }
 .half p{
     font-size: 100%;
@@ -69,12 +50,35 @@ img{
 }
 .link{
     text-decoration: none;
-    background-image: linear-gradient(red,#ff7300);
+    background-image: radial-gradient(orange,#ff7300,red);
     padding: 10px 40px;    
     border-radius: 15px 0 15px 0;
     font-weight: 700;
     color: white;
 }
+.Lorem{
+    background-image: url(pic/Frame-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.Lorem .col-md-5 img{
+    height: 400px;
+    width: 400px;
+}
+.ipsum{
+    background-image: url(pic/Frame-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.ipsum .col-md-5 img{
+    height: 400px;
+    width: 400px;
+}
 a{
     margin-bottom: 90px;
+}
+#subscribe{
+    height: 300px;
 }
